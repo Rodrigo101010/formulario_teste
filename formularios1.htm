@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tangerine:wght@700&display=swap');
+
+        
+
+
+         
+
+         body{
+
+            background-image: url(img/astronaut.jpg) ; 
+            background-size: cover;
+            background-position: 40% 54%;
+            height: 87vh;
+            overflow: hidden;
+            
+        
+         }
+         .corpo {
+             display: flex;
+             align-items: flex-end;
+             justify-content: flex-end;
+             position: relative;
+             top: 90%;
+             padding-right:70px;
+             
+             
+             
+         }
+        
+         form {
+             position:fixed;
+           
+         } 
+         
+         fieldset {
+             border-radius: 20% 15px;
+             height: 400px;
+             width: 250px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             line-height: 40px;
+             padding: 40px;
+             box-shadow: 1px 2px 10px #A62A2A, 5px 4px 13px #000000;
+             
+             
+             
+             
+         }   
+         h1 {
+             font-size: 50px;
+         }
+         input {
+             font-size: 25px;
+             border: none;
+             background: transparent;
+             border-bottom: 3px solid #fff;
+             font-family: 'Playfair Display';
+             outline: none;
+         }
+
+         input:focus{
+             border-bottom: 1px solid rgba(255, 0, 0, 0.411);
+             box-shadow: 0 1px 0 0 rgb(248, 12, 12);
+             
+         }
+
+         button {
+             border: 1px solid #fff;
+             width: 200px;
+             height: 40px;
+             border-radius: 20px;
+             font-size: 20px;
+             background: transparent;
+             font-family:'Playfair Display' ;
+             font-weight: 500;
+             cursor: pointer;
+             line-height: 20px;
+             
+         }
+
+         button:hover{
+             background: rgba(255, 0, 0, 0.411);
+             
+         }
+
+         
+     </style>
+    </head>
+    <body>
+        <div class="corpo">
+            <form>
+        <fieldset>
+            <h1>Longin</h1>
+            <p><input type="text" name="nome" placeholder="Escreva seu Email" required></p>
+            <br>
+            <p><input type="password" name="pass" placeholder="escreva sua Senha" required></p>
+            <p><button>Enviar</button></p>
+             
+        </fieldset>
+    </form>
+        </div>
+    </body>
+</html>
